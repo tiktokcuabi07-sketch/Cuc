@@ -1,0 +1,39 @@
+# Gift Code Activated: Happy Women's Day 8/3 for Cúc 🌼
+from datetime import datetime
+import random
+
+def unlock_gift_for_cuc():
+    today = datetime.now().strftime("%d/%m/%Y")
+    receiver = "Cúc xinh đẹp"  # Tên em yêu nhất trong database tình cảm của anh
+    gift_items = [
+        "∞ nụ cười mỗi ngày",
+        "+9999 điểm yêu thương (không bao giờ hết hạn)",
+        "1 bó hoa cúc họa mi vĩnh cửu (vì em là Cúc mà 🌸)",
+        "Voucher date đêm nay: Ăn kem + dạo phố + ôm thật chặt",
+        "Bug-free life: Không drama, chỉ có hạnh phúc update liên tục",
+        "Full version hạnh phúc level max cho em",
+        f"Trái tim anh transfer 100% ownership cho {receiver}"
+    ]
+    
+    print("╔════════════════════════════════════════╗")
+    print(f"║   GIFT CODE REDEEM SUCCESS - 8/3/{today}   ║")
+    print("╚════════════════════════════════════════╝")
+    print(f"Chào {receiver}!")
+    print("Hôm nay hệ thống tình yêu của anh đã unlock gift đặc biệt dành riêng cho em:")
+    
+    for item in gift_items:
+        print(f"→ {item}")
+    
+    bonus = random.choice([
+        "Em cười 1 cái là auto recharge năng lượng cả năm ❤️",
+        "Cúc ơi, em là exception duy nhất trong rule '....!",
+        "Anh promise: Luôn compile code yêu em không lỗi syntax nào!"
+    ])
+    print(f"\nBonus surprise: {bonus}")
+    
+    print("\nChúc Cúc của anh ngày 8/3 thật rực rỡ như hoa cúc nở, ngọt ngào như socola, và hạnh phúc max ping!")
+    print("Yêu em nhiều lắm! 💕🌸")
+    print("From: Cúc (dev tình cảm full-time của em)")
+
+# Chạy code để redeem quà ngay!
+unlock_gift_for_cuc()
